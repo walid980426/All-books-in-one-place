@@ -11,6 +11,7 @@
     1. Colectarea datelor
     2. Stocarea datelor in fisier json
 
+
 ### 4. Preluare Elefant.ro(https://www.elefant.ro/list/carti/carte)
     1. Colectarea datelor
     2. Stocarea datelor in fisier json
