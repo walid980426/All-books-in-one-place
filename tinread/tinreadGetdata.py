@@ -34,7 +34,7 @@ def main():
     options.headless = False
     driver = webdriver.Firefox(options=options)
     data=""
-    f =open("sursa/urlValid.txt","r")
+    f =open("urlValid.txt", "r")
     id_uri= f.readlines()
 
     urlSursa="http://opac.biblioteca.ase.ro/opac/bibliographic_view/"
@@ -51,7 +51,7 @@ def main():
     except KeyboardInterrupt:
         pass
     finally:
-        jsonFileTinread =open("data/tinread.json","a+")
+        jsonFileTinread =open("../data/tinread.json", "a+")
         jsonFileTinread.write(data)
         jsonFileTinread.close()
         driver.quit()
