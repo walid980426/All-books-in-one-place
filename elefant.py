@@ -3,15 +3,21 @@ from selenium import webdriver
 driver = webdriver.Firefox()
 urlSource = "https://www.elefant.ro/list/carti/carte?pag="
 i = 1
-while True:
-    driver.get(urlSource+str(i))
-    for line in driver.find_elements_by_xpath('//div[5]/div/div/div/a'):
-        line.click()
+try:
+    while True:
+        driver.get(urlSource+str(i))
         driver.implicitly_wait(3)
-    i += 1
-    if len(driver.find_elements_by_xpath("//div[2]/div[5]/div")) > 0:
-        continue
-    else:
-        break
+        for line in driver.find_elements_by_xpath('//div[@class="product-image-container"]'):
+            driver.execute_script("arguments[0].setAttribute('target','_blank')",line.find_element_by_tag_name("a"))
+            #
+
+        i += 1
+        if len(driver.find_elements_by_xpath("//div[2]/div[5]/div")) > 0:
+            continue
+        else:
+            break
+except KeyboardInterrupt:
+    pass
+#
 driver.close()
 
