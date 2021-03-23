@@ -18,3 +18,5 @@ while True:
     for j in lista:
         driver.get(j)
 driver.close()
+
+#in progress
