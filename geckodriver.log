@@ -1,13 +1,121 @@
+<<<<<<< HEAD
 1615378781285	geckodriver	INFO	Listening on 127.0.0.1:49921
 1615378837781	geckodriver	INFO	Listening on 127.0.0.1:50008
 1615378841023	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dopem\\AppData\\Local\\Temp\\rust_mozprofileAzYuxo"
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1615378842900	Marionette	INFO	Listening on port 50018
 1615378843072	Marionette	WARN	TLS certificate errors will be ignored for this session
+=======
+1615377918045	geckodriver	INFO	Listening on 127.0.0.1:56812
+1615377921074	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofilexGTOUn"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615377924482	Marionette	INFO	Listening on port 56820
+1615377924708	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 988: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+1615377926203	Marionette	INFO	Stopped listening on port 56820
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615377938200	geckodriver	INFO	Listening on 127.0.0.1:56862
+1615377941226	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofilef30oQN"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615377944343	Marionette	INFO	Listening on port 56870
+1615377944858	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1615378479583	Marionette	INFO	Stopped listening on port 56870
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Temp\\rust_mozprofilecJi7VP"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615378342121	Marionette	INFO	Listening on port 56971
+1615378342336	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615378478791	Marionette	INFO	Stopped listening on port 56971
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofilelDJsif"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615378428129	Marionette	INFO	Listening on port 57045
+1615378428308	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615378478231	Marionette	INFO	Stopped listening on port 57045
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofilefbExnz"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615378477625	Marionette	INFO	Listening on port 57139
+1615378477954	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615378537227	Marionette	INFO	Stopped listening on port 57139
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileaFmCh6"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615378540564	Marionette	INFO	Listening on port 57226
+1615378540861	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1615383757061	Marionette	INFO	Stopped listening on port 57226
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofilejheBZN"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615383758575	Marionette	INFO	Listening on port 64856
+1615383758916	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1615385259923	Marionette	INFO	Stopped listening on port 64856
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofilep1Js9O"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615385256763	Marionette	INFO	Listening on port 52610
+1615385256999	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/LightweightThemeChild.jsm, line 38: TypeError: this.contentWindow.top is null
+JavaScript error: resource:///actors/LightweightThemeChild.jsm, line 38: TypeError: this.contentWindow.top is null
+JavaScript error: resource:///actors/LightweightThemeChild.jsm, line 38: TypeError: this.contentWindow.top is null
+1615396381911	Marionette	INFO	Stopped listening on port 52610
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ored for this session
+>>>>>>> origin/master
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+<<<<<<< HEAD
 [Child 14080, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:545
 1615378848130	Marionette	INFO	Stopped listening on port 50018
 
@@ -18,11 +126,35 @@ JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1615378905207	Marionette	INFO	Listening on port 50095
 1615378905292	Marionette	WARN	TLS certificate errors will be ignored for this session
+=======
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1615400526031	Marionette	INFO	Stopped listening on port 57471615400526870	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofilew2Njg7"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615400530092	Marionette	INFO	Listening on port 63373
+1615400530498	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615400548058	Marionette	INFO	Stopped listening on port 63373
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615400550411	geckodriver	INFO	Listening on 127.0.0.1:63449
+1615400553439	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofilehTZKo3"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615400556509	Marionette	INFO	Listening on port 63457
+1615400556573	Marionette	WARN	TLS certificate errors will be ignored for this session
+>>>>>>> origin/master
 JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+<<<<<<< HEAD
 JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
 JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
 JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
@@ -34,10 +166,68 @@ JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStat
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1615379035989	Marionette	INFO	Listening on port 50311
 1615379036107	Marionette	WARN	TLS certificate errors will be ignored for this session
+=======
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A015A,name=PContent::Msg_InsertNewFocusActionId) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A015A,name=PContent::Msg_InsertNewFocusActionId) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A014D,name=PContent::Msg_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+onette	INFO	Listening on port 54643
+1615404555909	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A015A,name=PContent::Msg_InsertNewFocusActionId) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A015A,name=PContent::Msg_InsertNewFocusActionId) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A014D,name=PContent::Msg_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+1615451833299	geckodriver	INFO	Listening on 127.0.0.1:62163
+1615451836328	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofile9L2FxF"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615451840335	Marionette	INFO	Listening on port 62171
+1615451840472	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1615452911624	Marionette	INFO	Stopped listening on port 62171
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileFgaR3X"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615452538938	Marionette	INFO	Listening on port 63856
+1615452539342	Marionette	WARN	TLS certificate errors will be ignored for this session
+>>>>>>> origin/master
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+<<<<<<< HEAD
 1615379046625	Marionette	INFO	Stopped listening on port 50311
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
@@ -47,10 +237,63 @@ JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1615379066305	Marionette	INFO	Listening on port 50386
 1615379066496	Marionette	WARN	TLS certificate errors will be ignored for this session
+=======
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1615459901574	Marionette	INFO	Stopped listening on port 63856
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofile81kZEW"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615459900778	Marionette	INFO	Listening on port 58652
+1615459901191	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1615461861893	Marionette	INFO	Stopped listening on port 58651615461862644	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileFOQpyR"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615461866125	Marionette	INFO	Listening on port 61910
+1615461866335	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1615468719961	Marionette	INFO	Stopped listening on port 61910
+5468715328	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofile6aOvad"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615468718650	Marionette	INFO	Listening on port 63233
+1615468718960	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1615471215133	Marionette	INFO	Stopped listening on port 63231615471215339	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofilex6mcLS"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615471218789	Marionette	INFO	Listening on port 51010
+1615471218969	Marionette	WARN	TLS certificate errors will be ignored for this session
+>>>>>>> origin/master
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+<<<<<<< HEAD
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 1615380299159	Marionette	INFO	Stopped listening on port 50386
 
@@ -61,10 +304,35 @@ console.log: WebExtensions: reset-default-search: No addons in our list are inst
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1615386132481	Marionette	INFO	Listening on port 55143
 1615386132721	Marionette	WARN	TLS certificate errors will be ignored for this session
+=======
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1615473413574	Marionette	INFO	Stopped listening on port 51010
+5473411656	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileYbElfz"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615473415353	Marionette	INFO	Listening on port 54225
+1615473415800	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615473458558	Marionette	INFO	Stopped listening on port 54225
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileUiaion"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615473457260	Marionette	INFO	Listening on port 54307
+1615473457288	Marionette	WARN	TLS certificate errors will be ignored for this session
+>>>>>>> origin/master
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+<<<<<<< HEAD
 JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
 JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
 JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
@@ -81,10 +349,235 @@ JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStat
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1615976769082	Marionette	INFO	Listening on port 64498
 1615976769584	Marionette	WARN	TLS certificate errors will be ignored for this session
+=======
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/200044, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/200045, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/200100, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/200433, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/200434, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/200435, line 236: ReferenceError: recvHL_components_do_DOPDFViewer_1 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/200435, line 236: ReferenceError: recvHL_components_do_DOPDFViewer_1 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/200436, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/200437, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/200438, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/200439, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/200440, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/200441, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/200448, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/200449, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/200461, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/200489, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/200490, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/200492, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/200493, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/200494, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/200496, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/200497, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/200498, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/200500, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/200503, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/200504, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/200855, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/201471, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/201603, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/201607, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/203259, line 171: TypeError: response.responseXML is null
+1615480275661	Marionette	INFO	Stopped listening on port 54307
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileM4GFPb"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615480265814	Marionette	INFO	Listening on port 58890
+1615480266093	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/204582, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/205061, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/205062, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliog1615480789273	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileNl9UWB"
+console.warn: SearchSettings: "geJavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/205071, line 236: ReferenceError: recvHL_components_do_DOPDFViewer_1 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliograph1615480798013	Marionette	INFO	Stopped listening on port 59840
+JavaScript error: resource:///JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/205073, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/205087, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/205094, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/205095, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/205097, line 236: ReferenceError: recvHL_components_do_DOPDFViewer_1 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/205097, line 236: ReferenceError: recvHL_components_do_DOPDFViewer_1 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/205098, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/205100, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/205103, line 236: ReferenceError: recvHL_components_do_DOPDFViewer_1 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/205103, line 236: ReferenceError: recvHL_components_do_DOPDFViewer_1 is not defined
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/206451, line 236: ReferenceError: recvHL_components_do_DOPDFViewer_1 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/206451, line 236: ReferenceError: recvHL_components_do_DOPDFViewer_1 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/206452, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/206502, line 236: ReferenceError: recvHL_components_do_DOPDFViewer_1 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/206502, line 236: ReferenceError: recvHL_components_do_DOPDFViewer_1 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/206504, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/206505, line 236: ReferenceError: recvHL_components_do_DOPDFViewer_1 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/206505, line 236: ReferenceError: recvHL_components_do_DOPDFViewer_1 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/206507, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/206508, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/206513, line 236: ReferenceError: recvHL_components_do_DOPDFViewer_1 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/206513, line 236: ReferenceError: recvHL_components_do_DOPDFViewer_1 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/206514, line 236: ReferenceError: recvHL_components_do_DOPDFViewer_1 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/206514, line 236: ReferenceError: recvHL_components_do_DOPDFViewer_1 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/206520, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/206521, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/206529, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/206530, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/206533, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/206534, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/206539, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/206540, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/206542, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/206544, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+1615482358972	Marionette	INFO	Stopped listening on port 58890
+5482358229	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileubiUCq"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615482362080	Marionette	INFO	Listening on port 62872
+1615482362423	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1615483456308	Marionette	INFO	Stopped listening on port 62872
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileynQCTl"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615483332720	Marionette	INFO	Listening on port 64726
+1615483333178	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615483346005	Marionette	INFO	Stopped listening on port 64726
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615483443616	geckodriver	INFO	Listening on 127.0.0.1:64849
+1615483446658	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileTMegee"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615483450011	Marionette	INFO	Listening on port 64859
+1615483450290	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1615483655512	Marionette	INFO	Stopped listening on port 64859
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615484452557	geckodriver	INFO	Listening on 127.0.0.1:49303
+1615484455607	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileXND4vK"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615484458974	Marionette	INFO	Listening on port 49312
+1615484459248	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/212724, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/213779, line 236: ReferenceError: recvHL_components_do_DOPDFViewer_1 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/213779, line 236: ReferenceError: recvHL_components_do_DOPDFViewer_1 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/213803, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/213808, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/213821, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1615559219259	geckodriver	INFO	Listening on 127.0.0.1:61123
+1615559222290	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileaCLJwj"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615559225979	Marionette	INFO	Listening on port 61131
+1615559226424	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615559290714	Marionette	INFO	Stopped listening on port 61131615559291514	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofile4lFhir"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615559294730	Marionette	INFO	Listening on port 61257
+1615559295143	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615559548747	Marionette	INFO	Stopped listening on port 61257
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileJKql0A"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615559540761	Marionette	INFO	Listening on port 61377
+1615559541255	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: resource:///actors/LightweightThemeChild.j1615559749853	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileD4BBkX"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615559753336	Marionette	INFO	Listening on port 61522
+1615559753487	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1615559825235	Marionette	INFO	Stopped listening on port 61522
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileGHU0GU"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615559820497	Marionette	INFO	Listening on port 61598
+1615559820717	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615559861650	Marionette	INFO	Stopped listening on port 61598
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileOOcBs1"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615559851258	Marionette	INFO	Listening on port 61668
+1615559851401	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1615559899539	Marionette	INFO	Stopped listening on port 61661615559900202	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileiFX4An"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615559903220	Marionette	INFO	Listening on port 61787
+1615559903339	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615559942678	Marionette	INFO	Stopped listening on port 61787
+5559936877	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileOIv5Ni"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615559939994	Marionette	INFO	Listening on port 61880
+1615559940508	Marionette	WARN	TLS certificate errors will be ignored for this session
+>>>>>>> origin/master
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+<<<<<<< HEAD
 1615976773101	geckodriver	INFO	Listening on 127.0.0.1:64571
 1615976776394	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dopem\\AppData\\Local\\Temp\\rust_mozprofileomnxMa"
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
@@ -97,10 +590,53 @@ JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1615976789541	Marionette	INFO	Listening on port 64642
 1615976789643	Marionette	WARN	TLS certificate errors will be ignored for this session
+=======
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/219337, line 171: TypeError: response.responseXML is null
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1615563039420	Marionette	INFO	Stopped listening on port 61881615563040901	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofilejwwy6e"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615563044889	Marionette	INFO	Listening on port 49661
+1615563045053	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/221098, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/221102, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/221107, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/221438, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+1615565358326	Marionette	INFO	Stopped listening on port 49661
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofile3pfkgk"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615565318153	Marionette	INFO	Listening on port 52427
+1615565318611	Marionette	WARN	TLS certificate errors will be ignored for this session
+>>>>>>> origin/master
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+<<<<<<< HEAD
 1615976795538	Marionette	INFO	Stopped listening on port 64642
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
@@ -110,16 +646,833 @@ JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1615976814395	Marionette	INFO	Listening on port 64712
 1615976814628	Marionette	WARN	TLS certificate errors will be ignored for this session
+=======
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/224360, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1615569130755	Marionette	INFO	Stopped listening on port 52427
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileME427w"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615568342471	Marionette	INFO	Listening on port 56153
+1615568342649	Marionette	WARN	TLS certificate errors will be ignored for this session
+>>>>>>> origin/master
 JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+<<<<<<< HEAD
 1615976867955	geckodriver	INFO	Listening on 127.0.0.1:64794
 1615976871237	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dopem\\AppData\\Local\\Temp\\rust_mozprofile6oGIc6"
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1615976873405	Marionette	INFO	Listening on port 64802
 1615976873914	Marionette	WARN	TLS certificate errors will be ignored for this session
+=======
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/227456, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/227765, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/227823, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/229904, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/229922, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/231725, line 206: ReferenceError: recvHL_components_do_DOPDFViewer_0 is not defined
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1615575266484	Marionette	INFO	Stopped listening on port 56151615575267471	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofile41V7Cy"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615575271506	Marionette	INFO	Listening on port 64622
+1615575271617	Marionette	WARN	TLS certificate errors will be ignored for this session
+>>>>>>> origin/master
 JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+<<<<<<< HEAD
+=======
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1615583419396	Marionette	INFO	Stopped listening on port 64622
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileqXEjqf"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615583405441	Marionette	INFO	Listening on port 60594
+1615583405724	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615583879721	Marionette	INFO	Stopped listening on port 60594
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileQ5EJAv"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615583863452	Marionette	INFO	Listening on port 61856
+1615583863894	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615583999908	Marionette	INFO	Stopped listening on port 61856
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615710235874	geckodriver	INFO	Listening on 127.0.0.1:59387
+1615710238892	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofilecdhzVO"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615710241834	Marionette	INFO	Listening on port 59396
+1615710242033	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+a Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofilecIws6b"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615710282785	Marionette	INFO	Listening on port 59466
+1615710282832	Marionette	WARN	TLS certificate errors will be ignored for this session
+1615710300357	Marionette	INFO	Stopped listening on port 59461615710301858	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileCfadDP"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615710304846	Marionette	INFO	Listening on port 59530
+1615710305037	Marionette	WARN	TLS certificate errors will be ignored for this session
+1615710377770	Marionette	INFO	Stopped listening on port 59530
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofile5idasi"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615710354646	Marionette	INFO	Listening on port 59610
+1615710354744	Marionette	WARN	TLS certificate errors will be ignored for this session
+1615710380877	Marionette	INFO	Stopped listening on port 59610
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615710442453	geckodriver	INFO	Listening on 127.0.0.1:59697
+1615710445477	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofile8x5cXE"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615710448499	Marionette	INFO	Listening on port 59706
+1615710448650	Marionette	WARN	TLS certificate errors will be ignored for this session
+1615710492853	Marionette	INFO	Stopped listening on port 59701615710494837	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileJnd4Hi"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615710497853	Marionette	INFO	Listening on port 59782
+1615710497994	Marionette	WARN	TLS certificate errors will be ignored for this session
+1615710636921	Marionette	INFO	Stopped listening on port 59782
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileWBaHpB"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615710525395	Marionette	INFO	Listening on port 59846
+1615710525580	Marionette	WARN	TLS certificate errors will be ignored for this session
+1615710636279	Marionette	INFO	Stopped listening on port 59846
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileMdfuXh"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615710554919	Marionette	INFO	Listening on port 59910
+1615710555013	Marionette	WARN	TLS certificate errors will be ignored for this session
+1615710635467	Marionette	INFO	Stopped listening on port 59910
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofilevNtNPm"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615710626043	Marionette	INFO	Listening on port 60002
+1615710626224	Marionette	WARN	TLS certificate errors will be ignored for this session
+1615710637718	Marionette	INFO	Stopped listening on port 60002
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615710652103	geckodriver	INFO	Listening on 127.0.0.1:60059
+1615710655120	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofilejZIb54"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615710658260	Marionette	INFO	Listening on port 60069
+1615710658299	Marionette	WARN	TLS certificate errors will be ignored for this session
+1615710736631	Marionette	INFO	Stopped listening on port 60069
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofilescOLVJ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615710698128	Marionette	INFO	Listening on port 60137
+1615710698369	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615710735996	geckodriver	INFO	Listening on 127.0.0.1:60244
+1615710739057	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofilemGXnDc"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615710741951	Marionette	INFO	Listening on port 60253
+1615710742245	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615714799017	geckodriver	INFO	Listening on 127.0.0.1:62247
+1615714802059	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileJerxVk"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615714805622	Marionette	INFO	Listening on port 62257
+1615714805733	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615714920773	Marionette	INFO	Stopped listening on port 62257
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileXMPWtM"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615714862419	Marionette	INFO	Listening on port 62343
+1615714862510	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_untrustedmodules_ping
+1615714919945	Marionette	INFO	Stopped listening on port 62343
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+tte	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615715095509	geckodriver	INFO	Listening on 127.0.0.1:62720
+1615715098537	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofilepJAVr1"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615715101504	Marionette	INFO	Listening on port 62730
+1615715101705	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615715309071	geckodriver	INFO	Listening on 127.0.0.1:62909
+1615715312107	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileYnZLPk"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615715315113	Marionette	INFO	Listening on port 62918
+1615715315254	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1615716711089	Marionette	INFO	Stopped listening on port 62918
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Temp\\rust_mozprofileyFLCOF"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615715375034	Marionette	INFO	Listening on port 63010
+1615715375240	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615715409061	geckodriver	INFO	Listening on 127.0.0.1:63087
+1615715412065	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileMfgCfj"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615715415112	Marionette	INFO	Listening on port 63097
+1615715415251	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1615716707349	Marionette	INFO	Stopped listening on port 63097
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Temp\\rust_mozprofile9HQHZI"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615715603108	Marionette	INFO	Listening on port 63250
+1615715603294	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+SourceActor threw an exception: [Exception... "Failed to open input source 'file:///'"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 670"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:670:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:439:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:406:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2106:35
+addAllSources@resource://devtools/server/actors/thread.js:1464:14
+watch@resource://devtools/server/actors/resources/sources.js:52:17
+watchResources@resource://devtools/server/actors/resources/index.js:204:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:68:24
+addWatcherDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:29:20
+_addWatcherDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:411:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:353:21
+Line: 670, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 670: NS_ERROR_FAILURE: Failed to open input source 'file:///'
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1615716706477	Marionette	INFO	Stopped listening on port 63250
+firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofile6unKA5"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615715876776	Marionette	INFO	Listening on port 63485
+1615715877210	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1615716704573	Marionette	INFO	Stopped listening on port 63485
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Temp\\rust_mozprofileMrJD5T"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615716023803	Marionette	INFO	Listening on port 63832
+1615716024183	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615716541742	geckodriver	INFO	Listening on 127.0.0.1:64233
+1615716544769	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileoqrgJq"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615716548118	Marionette	INFO	Listening on port 64242
+1615716548443	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615716705758	Marionette	INFO	Stopped listening on port 64242
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileBY0Ofs"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615716579011	Marionette	INFO	Listening on port 64317
+1615716579172	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615716639380	geckodriver	INFO	Listening on 127.0.0.1:64427
+1615716642408	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileeLgf8V"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615716645883	Marionette	INFO	Listening on port 64436
+1615716646072	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615716712011	Marionette	INFO	Stopped listening on port 64436
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofile6fSqnR"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615716687664	Marionette	INFO	Listening on port 64516
+1615716687718	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615716700183	geckodriver	INFO	Listening on 127.0.0.1:64588
+1615716703213	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileSeOKmV"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615716706677	Marionette	INFO	Listening on port 64597
+1615716706843	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615716837573	Marionette	INFO	Stopped listening on port 64597
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileLoyR94"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615716836173	Marionette	INFO	Listening on port 64771
+1615716836226	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/215534, line 171: TypeError: response.responseXML is null
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615717002529	geckodriver	INFO	Listening on 127.0.0.1:64989
+1615717005574	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofilet5qBhP"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615717008542	Marionette	INFO	Listening on port 64998
+1615717008743	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615717107051	Marionette	INFO	Stopped listening on port 64998
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofilesLAJs1"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615717097458	Marionette	INFO	Listening on port 65103
+1615717097761	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615717108338	Marionette	INFO	Stopped listening on port 65103
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615718150976	geckodriver	INFO	Listening on 127.0.0.1:49351
+1615718154021	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofile6qmCjL"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615718157695	Marionette	INFO	Listening on port 49361
+1615718158203	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615718232805	geckodriver	INFO	Listening on 127.0.0.1:49542
+1615718235834	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofilen44mTQ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615718238819	Marionette	INFO	Listening on port 49552
+1615718238961	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615718323397	geckodriver	INFO	Listening on 127.0.0.1:49671
+1615718326438	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofile7LxoHK"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615718329155	Marionette	INFO	Listening on port 49882
+1615718329565	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: http://opac.biblioteca.ase.ro/opac/bibliographic_view/215534, line 171: TypeError: response.responseXML is null
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615722026809	geckodriver	INFO	Listening on 127.0.0.1:52279
+1615722029843	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileYh71OC"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615722034123	Marionette	INFO	Listening on port 52289
+1615722034589	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615722118724	geckodriver	INFO	Listening on 127.0.0.1:52413
+1615722121747	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofilec9E5nM"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615722125490	Marionette	INFO	Listening on port 52422
+1615722125879	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1615725490952	Marionette	INFO	Stopped listening on port 52422
+firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileFG2Puk"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615722267392	Marionette	INFO	Listening on port 52718
+1615722267506	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615724715821	geckodriver	INFO	Listening on 127.0.0.1:54385
+1615724718855	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofile0IYR2w"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615724722209	Marionette	INFO	Listening on port 54394
+1615724722484	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1615725489953	Marionette	INFO	Stopped listening on port 54394
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Temp\\rust_mozprofilefNARtv"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615724762122	Marionette	INFO	Listening on port 54476
+1615724762496	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1615725491589	Marionette	INFO	Stopped listening on port 54476
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Temp\\rust_mozprofilet1SMA8"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615724870589	Marionette	INFO	Listening on port 54591
+1615724870665	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615724972979	geckodriver	INFO	Listening on 127.0.0.1:54710
+1615724976001	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileoh8WE9"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615724979223	Marionette	INFO	Listening on port 54720
+1615724979631	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615724997968	geckodriver	INFO	Listening on 127.0.0.1:54806
+1615725000993	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofilekYZHaC"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615725004136	Marionette	INFO	Listening on port 54815
+1615725004638	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615725028176	geckodriver	INFO	Listening on 127.0.0.1:54907
+1615725031196	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofilemALvs4"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615725034266	Marionette	INFO	Listening on port 54916
+1615725034332	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1615725743793	geckodriver	INFO	Listening on 127.0.0.1:55847
+1615725746828	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileejspKo"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615725750346	Marionette	INFO	Listening on port 55855
+1615725750464	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615725767698	geckodriver	INFO	Listening on 127.0.0.1:55922
+1615725770723	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileUuqbim"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615725773650	Marionette	INFO	Listening on port 55930
+1615725773877	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615725908195	geckodriver	INFO	Listening on 127.0.0.1:56113
+1615725911226	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileu24pWD"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615725914214	Marionette	INFO	Listening on port 56121
+1615725914363	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615726061483	Marionette	INFO	Stopped listening on port 56121
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofilecRW5hj"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615725966420	Marionette	INFO	Listening on port 56209
+1615725966485	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615726122241	Marionette	INFO	Stopped listening on port 56209
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileKvTmNn"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615725991696	Marionette	INFO	Listening on port 56277
+1615725992146	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615726057279	geckodriver	INFO	Listening on 127.0.0.1:56352
+1615726060322	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileJ2nGTY"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615726064097	Marionette	INFO	Listening on port 56360
+1615726064522	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: resource:///actors/ContentMetaChild.jsm, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1615726120903	geckodriver	INFO	Listening on 127.0.0.1:56465
+1615726123958	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofile6oH30U"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615726127152	Marionette	INFO	Listening on port 56473
+1615726127600	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615726212001	geckodriver	INFO	Listening on 127.0.0.1:56590
+1615726215026	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofiledBjp4h"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615726218010	Marionette	INFO	Listening on port 56598
+1615726218154	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1615726910657	Marionette	INFO	Stopped listening on port 56598
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileU5xSSG"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615726880134	Marionette	INFO	Listening on port 56702
+1615726880253	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615726911625	Marionette	INFO	Stopped listening on port 56702
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileb2zGME"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615726906087	Marionette	INFO	Listening on port 56762
+1615726906480	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615727097298	Marionette	INFO	Stopped listening on port 56762
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileQt5q7m"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615727044648	Marionette	INFO	Listening on port 56829
+1615727044685	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615727046565	Marionette	INFO	Stopped listening on port 56829
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615727063476	geckodriver	INFO	Listening on 127.0.0.1:56876
+1615727066501	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofile7FwecB"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615727069516	Marionette	INFO	Listening on port 56884
+1615727069632	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615727071084	Marionette	INFO	Stopped listening on port 56884
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615727084399	geckodriver	INFO	Listening on 127.0.0.1:56930
+1615727087435	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileILD4D2"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615727090372	Marionette	INFO	Listening on port 56938
+1615727090572	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615727091983	Marionette	INFO	Stopped listening on port 56938
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615727105952	geckodriver	INFO	Listening on 127.0.0.1:56985
+1615727108977	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileqLbMWy"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615727111841	Marionette	INFO	Listening on port 56993
+1615727112109	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615727113829	Marionette	INFO	Stopped listening on port 56993
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615728493068	geckodriver	INFO	Listening on 127.0.0.1:57481
+1615728496102	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofile0QgVFi"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615728499831	Marionette	INFO	Listening on port 57493
+1615728500241	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615728502703	Marionette	INFO	Stopped listening on port 57493
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615728827094	geckodriver	INFO	Listening on 127.0.0.1:57726
+1615728830143	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofile2TQDO2"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615728832986	Marionette	INFO	Listening on port 57736
+1615728833275	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615728834972	Marionette	INFO	Stopped listening on port 57736
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615728914225	geckodriver	INFO	Listening on 127.0.0.1:57824
+1615728917250	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofilef4GZcQ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615728920268	Marionette	INFO	Listening on port 57833
+1615728920394	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615728923948	Marionette	INFO	Stopped listening on port 57833
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615729121605	geckodriver	INFO	Listening on 127.0.0.1:58078
+1615729124628	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofile50u83s"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615729127515	Marionette	INFO	Listening on port 58088
+1615729127761	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615729129266	Marionette	INFO	Stopped listening on port 58088
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615729167445	geckodriver	INFO	Listening on 127.0.0.1:58171
+1615729170468	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofile24YImb"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615729173399	Marionette	INFO	Listening on port 58182
+1615729173611	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615729175227	Marionette	INFO	Stopped listening on port 58182
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615729187848	geckodriver	INFO	Listening on 127.0.0.1:58248
+1615729190872	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileUMfJKQ"
+1615729193666	geckodriver	INFO	Listening on 127.0.0.1:58272
+1615729196696	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofile9BW2Sm"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615729199687	Marionette	INFO	Listening on port 58282
+1615729199823	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615729201704	Marionette	INFO	Stopped listening on port 58282
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615729296316	geckodriver	INFO	Listening on 127.0.0.1:58404
+1615729299340	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofilemVnyko"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615729302227	Marionette	INFO	Listening on port 58413
+1615729302481	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615729307885	Marionette	INFO	Stopped listening on port 58413
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615729317500	geckodriver	INFO	Listening on 127.0.0.1:58475
+1615729320520	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofile3NNeSY"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615729323384	Marionette	INFO	Listening on port 58484
+1615729323644	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615729325330	Marionette	INFO	Stopped listening on port 58484
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615729392985	geckodriver	INFO	Listening on 127.0.0.1:58569
+1615729396009	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileJVMty0"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615729398853	Marionette	INFO	Listening on port 58578
+1615729399143	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615729400837	Marionette	INFO	Stopped listening on port 58578
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615729677698	geckodriver	INFO	Listening on 127.0.0.1:58801
+1615729680719	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileisNMkB"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615729683877	Marionette	INFO	Listening on port 58811
+1615729684356	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615729689985	Marionette	INFO	Stopped listening on port 58811
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615729696608	geckodriver	INFO	Listening on 127.0.0.1:58873
+1615729699626	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofile9mp7e9"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615729702666	Marionette	INFO	Listening on port 58882
+1615729702760	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615729704589	Marionette	INFO	Stopped listening on port 58882
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615729732598	geckodriver	INFO	Listening on 127.0.0.1:58945
+1615729735618	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileTunFlH"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615729738595	Marionette	INFO	Listening on port 58954
+1615729738742	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615729740558	Marionette	INFO	Stopped listening on port 58954
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615729772141	geckodriver	INFO	Listening on 127.0.0.1:59024
+1615729775167	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofilebx6YPE"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615729778241	Marionette	INFO	Listening on port 59033
+1615729778308	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615729780087	Marionette	INFO	Stopped listening on port 59033
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615729797501	geckodriver	INFO	Listening on 127.0.0.1:59098
+1615729800538	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofiles9XYlm"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615729804521	geckodriver	INFO	Listening on 127.0.0.1:59126
+1615729807544	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileb4yMkZ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615729810586	Marionette	INFO	Listening on port 59135
+1615729810682	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615729815180	Marionette	INFO	Stopped listening on port 59135
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615730052398	geckodriver	INFO	Listening on 127.0.0.1:59267
+1615730055429	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofilekiw8vm"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615730058547	Marionette	INFO	Listening on port 59275
+1615730059058	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615730064126	Marionette	INFO	Stopped listening on port 59275
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615730076363	geckodriver	INFO	Listening on 127.0.0.1:59335
+1615730079380	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileN4Ul6l"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615730082579	Marionette	INFO	Listening on port 59344
+1615730083020	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615730088991	Marionette	INFO	Stopped listening on port 59344
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615730105984	geckodriver	INFO	Listening on 127.0.0.1:59406
+1615730109020	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileyGviBE"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615730112116	Marionette	INFO	Listening on port 59414
+1615730112146	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615730115770	Marionette	INFO	Stopped listening on port 59414
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615730218326	geckodriver	INFO	Listening on 127.0.0.1:59516
+1615730221348	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileW0600x"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615730224523	Marionette	INFO	Listening on port 59525
+1615730224971	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615730229164	Marionette	INFO	Stopped listening on port 59525
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615730308749	geckodriver	INFO	Listening on 127.0.0.1:59634
+1615730311771	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofilePptCBe"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615730314851	Marionette	INFO	Listening on port 59643
+1615730314911	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615730320286	Marionette	INFO	Stopped listening on port 59643
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615730332894	geckodriver	INFO	Listening on 127.0.0.1:59706
+1615730335914	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofilerj9TBo"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615730339030	Marionette	INFO	Listening on port 59715
+1615730339060	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615730340838	Marionette	INFO	Stopped listening on port 59715
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615730487859	geckodriver	INFO	Listening on 127.0.0.1:59844
+1615730490881	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileoLqYZe"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615730493747	Marionette	INFO	Listening on port 59853
+1615730494013	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615730496258	Marionette	INFO	Stopped listening on port 59853
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615730526127	geckodriver	INFO	Listening on 127.0.0.1:59924
+1615730529149	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofilelzhj86"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615730532054	Marionette	INFO	Listening on port 59933
+1615730532280	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615730534489	Marionette	INFO	Stopped listening on port 59933
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615811825424	geckodriver	INFO	Listening on 127.0.0.1:57915
+1615811828524	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofileeuJfc7"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615811835440	Marionette	INFO	Listening on port 57924
+1615811835517	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://opac.biblioteca.ase.ro/js/jquery/jquery-1.10.1.min.js?build=3.4.1%20build%2012636, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615811839926	Marionette	INFO	Stopped listening on port 57924
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+>>>>>>> origin/master
