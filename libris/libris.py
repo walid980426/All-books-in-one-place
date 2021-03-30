@@ -1,8 +1,8 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from base64 import b64encode
 import time
 import json
-from PIL import Image
 
 
 def to_json(lst: list):
@@ -44,8 +44,8 @@ def main():
         driver.get(driver.find_element_by_xpath('//a[@class="back-to-site-link"]').get_attribute("href"))
 
     if driver.find_elements_by_xpath('//button[@class ="btn btn-primary btn-sm acceptcookiesLibris"]'):
+        time.sleep(3)
         driver.find_element_by_xpath('//button[@class ="btn btn-primary btn-sm acceptcookiesLibris"]').click()
-
 
     # numarul categoriilor
     x = driver.find_elements_by_xpath('//div[@class="tab-pane tab-pane-header tab-subcategorie"]')
@@ -78,6 +78,7 @@ def main():
 
             driver.get(categorii[i] + '?pgn=100&pg=' + str(j))
             carti = []
+
             for k in range(len(driver.find_elements_by_xpath(
                     '//div[@class="container-produs-singur border-box-ct-sg border-box-categ"]/a[@class="linkNumeProd"]'))):
                 # preluam linkul de la fiecare carte din pagina
@@ -85,7 +86,6 @@ def main():
                     '//div[@class="container-produs-singur border-box-ct-sg border-box-categ"][' + str(
                         k + 1) + ']/a[@class="linkNumeProd"]')
                 carti.append(xpath.get_attribute("href"))
-
             j += 1
 
             # deschidem un tab nou in care vom accesa linkul de la fiecare carte is vom prelua informatii in legatura
@@ -104,9 +104,11 @@ def main():
                 img = driver.find_element_by_xpath('//img[@class="imgProdus"]')  # se preia coperta fiecarei carti
                 driver.execute_script("arguments[0].scrollIntoView();", img)
                 img.screenshot("coperta.png")
-                image = Image.open('coperta.png')
-                carte.append(image.tobytes().decode('latin1'))
-                image.close()
+
+                with open("coperta.png", "rb") as f:
+                    b_img = f.read()
+                b64_img = b64encode(b_img).decode('utf-8')
+                carte.append(b64_img)
 
                 for l in range(1, len(driver.find_elements_by_xpath('//div[@id="text_container"]/p')) + 1):
                     # adaugam in lista celelate informatii cum ar fi ISBN, descriere ator
