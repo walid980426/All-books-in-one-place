@@ -1,4 +1,5 @@
 from selenium import webdriver
+from time import sleep
 import json
 
 driver = webdriver.Firefox()
@@ -12,12 +13,14 @@ try:
     while True:
         driver.get(urlSource+str(i))
         driver.implicitly_wait(3)
+        sleep(2)
         for line in driver.find_elements_by_xpath('//div[@class="product-image-container"]'):
             browser = webdriver.Firefox()
             elem = line.find_element_by_tag_name("a")
             link = elem.get_attribute("href")
             browser.get(link)
             browser.implicitly_wait(3)
+            sleep(6)
             pret_actual = browser.find_element_by_css_selector(".pdp-table-th > .current-price")
             pret_actual = pret_actual.text
             data['price'].append(pret_actual)
