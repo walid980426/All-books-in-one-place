@@ -17,7 +17,7 @@ while True:
         sleep(2)
         driver.find_element_by_xpath("/html/body/table[3]/tbody/tr/td[5]/a").click() #etichete
         sleep(2)
-        data = driver.find_element_by_xpath("//tbody[contains(., '001')]")#elemnte unimarc
+        data = driver.find_element_by_xpath("//tbody[contains(., '001')]")#elemnte Etichete MARC
         for line in data.find_elements_by_xpath('//td'):
             print(line.get_attribute('innerHTML'))
 
