@@ -21,6 +21,7 @@ while True:
         for line in data.find_elements_by_xpath('//td'):
             print(line.get_attribute('innerHTML'))
 
+
     finally:
         i=i+1
 
