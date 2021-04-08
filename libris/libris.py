@@ -10,16 +10,48 @@ def to_json(lst: list):
     functie pentru introducerea informatiilor in fisierul json
     :param lst: lista cu nume, pret, isbn, etc
     """
-    new_object = {str(lst[0]): {"titlu": lst[0], "sursa": lst[1], "poza": lst[2]}}
 
-    for i in lst[3:]:  # in cazul in care apar caractere cum ar fi tab, new line ele sunt elimintae
+    for i in range(3, len(lst)):  # in cazul in care apar caractere cum ar fi tab, new line ele sunt elimintae
         for j in ["\t", "\n", "\u00a0"]:
-            i.replace(j, i)
+            lst[i] = lst[i].replace(j, '')
 
-        if i.find(':') == -1:
-            continue
-        obj = {str(i[0: i.find(':')]): str(i[i.find(':') + 1: len(i)])}
-        new_object[lst[0]].update(obj)
+
+    new_object = {str(lst[0]): {"Titlu": lst[0], "Sursa": lst[1], "Poza": lst[2], "Pret: ": lst[3], "Pret redus: ": lst[4],
+                                "Stoc: ": lst[5], "Cod: ": "-", "An aparitie: ": "-", "Autor: ": "-",  "Categorie: ": "-",
+                                "Editura: ": "-", "Format: ": "-", "Nr. pagini: ": "-", "Alte detalii: ": "-"}}
+
+    for i in range(6, len(lst)):
+        # verificam daca lsta contine informatii cum ar fi cod carte, autor , etc regasite in dictionar
+        # daca da atuci actualizam dictionarul creat.
+        # daca apare o specificatie mai speciala care nu se regaseste in cheia dictionarului
+        # informatia este adaugata in "Alte detalii: "
+        if lst[6].startswith('Cod'):
+            x = (lst.pop(6))
+            new_object[str(lst[0])]["Cod: "] = x[x.find(':') + 2:]
+        elif lst[6].startswith('An aparitie: '):
+            x = (lst.pop(6))
+            new_object[str(lst[0])]['An aparitie: '] = x[x.find(':') + 2:]
+        elif lst[6].startswith('Autor: '):
+            x = (lst.pop(6))
+            new_object[str(lst[0])]["Autor: "] = x[x.find(':') + 2:] if new_object[str(lst[0])]["Autor: "] == '-' \
+                                                                     else new_object[str(lst[0])]["Autor: "] + x[x.find(':') + 2]
+        elif lst[6].startswith('Categorie: '):
+            x = (lst.pop(6))
+            new_object[str(lst[0])]["Categorie: "] = x[x.find(':') + 2:] if new_object[str(lst[0])]["Categorie: "] == '-' \
+                                                                        else new_object[str(lst[0])]["Categorie: "] + x[x.find(':') + 2]
+        elif lst[6].startswith('Editura: '):
+            x = (lst.pop(6))
+            new_object[str(lst[0])]["Editura: "] = x[x.find(':') + 2:]
+        elif lst[6].startswith("Format: "):
+            x = (lst.pop(6))
+            new_object[str(lst[0])]["Format: "] = x[x.find(':') + 2:]
+        elif lst[6].startswith("Nr. pagini: "):
+            x = (lst.pop(6))
+            new_object[str(lst[0])]["Nr. pagini: "] = x[x.find(':') + 2:]
+        else:
+            new_object[str(lst[0])]["Alte detalii: "] = (lst.pop(6))
+
+    print(lst)
 
     with open("carti.json", 'r+', encoding="utf-8") as file:
         data = file.read().strip()
@@ -99,7 +131,6 @@ def main():
                 carte.append(  # adaugam in lista numele cartii
                     driver.find_element_by_xpath('//h1[@id="product_title rating"]').get_attribute('textContent'))
                 carte.append(k)  # adaugam in lista linkul de la fiecare carte
-                print(carte[0], '\n', carte[1], '\n')
 
                 img = driver.find_element_by_xpath('//img[@class="imgProdus"]')  # se preia coperta fiecarei carti
                 driver.execute_script("arguments[0].scrollIntoView();", img)
@@ -110,23 +141,29 @@ def main():
                 b64_img = b64encode(b_img).decode('utf-8')
                 carte.append(b64_img)
 
-                for l in range(1, len(driver.find_elements_by_xpath('//div[@id="text_container"]/p')) + 1):
+                pret = driver.find_element_by_xpath('//div[@id="text_container"]/p[1]').get_attribute('textContent')
+                if pret.count('Lei') == 1:
+                    carte.append('Pret: ' + pret)
+                    carte.append('Pret redus: -')
+                else:
+                    carte.append("Pret: " + pret[:pret.find("Lei", 2) + 3])
+                    carte.append("Pret redus: " + pret[pret.find("Lei", 2) + 3:])
+
+                carte.append('Stoc: ' + driver.find_element_by_xpath('//div[@id="text_container"]/p[3]').get_attribute(
+                    'textContent'))
+                for l in range(4, len(driver.find_elements_by_xpath('//div[@id="text_container"]/p')) + 1):
                     # adaugam in lista celelate informatii cum ar fi ISBN, descriere ator
                     informatie = driver.find_element_by_xpath(
                         '//div[@id="text_container"]/p[' + str(l) + ']').get_attribute('textContent')
                     carte.append(informatie)
-                    print(informatie)
 
                 to_json(carte)  # adaugam continutul listei in fisierul json
-                print('\n')
             # dupa ce am preluat informatiile de la toate cartile inchidem tab-ul
             # si continuam cu urmatoarea pagina
 
             driver.close()
             driver.switch_to.window(driver.window_handles[0])
 
-            for k in carti:
-                print(carti)
     driver.close()
 
 
