@@ -1,59 +1,52 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.firefox.options import Options
-import re
-"""regularExpression = r'(<script(\s|\S)*?<\/script>)|(<style(\s|\S)*?<\/style>)|(<!--(\s|\S)*?-->)|(<\/?(\s|\S)*?>)'
-s = open("test.txt", 'r').read()
-print(s)
-result =re.sub(regularExpression,' ',s)
-print(result)
-"""
-dateTinread={
-"LDR": "00616nam a2200169 i 450",
-"001": "200013",
-"006": "a ||00 0",
-"007": "ta",
-"008": "141111b 000 0 ||",
-"041": "0 # $a  rum",
-"082": "00 4 $a  331.120 94",
-"100": "$6  191073 $a  Predonu, Andreea-Monica",
-"245": "1 0 $a  Implicatii regionale ale viitorului pietei unice europene a fortei de munca $c  Predonu Andreea-Monica",
-"260": "# # $a  Bucuresti $L  s10556 $b  ASE $c  2014",
-"300": "# # $a  X, 289, [62] f. $b  fig., graf., tab. partial color $c  31 cm",
-"500": "$a  Teza este si pe CD",
-"502": "$a  Teza de doctorat sustinuta la Academia de Studii Economice din Bucuresti, RO. C.S.U.D. Scoala Doctorala - Economie I, 2014",
-"504": "# # $a  f. 275-289",
-"650": "$2  ASE $6  171753 $a  teze de doctorat",
-"651": "$6  172488 $a  Europa",
-"700": "0 $6  155958 $a  Iovitu, Mariana, cond. st. $u  Academia de Studii Economice din Bucuresti. Facultatea de Economie Teoretica si Aplicata, Departamentul de Economie si Politici Economice",
-"852": "# # $j  137026"
-}
-def main():
-    options = Options()
-    options.headless = False
-    driver = webdriver.Firefox(options=options)
-    data=""
-    f =open("urlValid.txt", "r")
-    id_uri= f.readlines()
+from getDataBook import getDataBook
+from toJson import to_json
 
-    urlSursa="http://opac.biblioteca.ase.ro/opac/bibliographic_view/"
-    index =1
+def main():
+    list_fields = ['LDR', '000', '001', '003', '005', '006', '007', '008', '009', '020', '031', '035', '036', '041',
+                   '044', '050', '075', '076', '080', '082', '100', '110', '113', '116', '136', '138', '140', '152',
+                   '154', '166', '168', '169', '175', '184', '189', '197', '204', '206', '216', '218', '223', '224',
+                   '227', '229', '230', '232', '240', '244', '245', '250', '260', '269', '271', '273', '274', '276',
+                   '281', '292', '294', '300', '304', '312', '318', '321', '336', '341', '344', '355', '356', '359',
+                   '362', '366', '374', '382', '406', '408', '414', '428', '430', '448', '464', '483', '490', '500',
+                   '504', '507', '511', '518', '546', '571', '587', '603', '608', '624', '650', '651', '658', '687',
+                   '696', '700', '800', '802', '804', '807', '811', '852', '855', '857', '891', '911', '913']
+    f = open("urlValid.txt", "r")
+    id_uri = f.readlines()
+    urlSursa = "http://opac.biblioteca.ase.ro/opac/bibliographic_view/"
+    index = 1
+
     try:
-        #while True:
-        url =urlSursa+id_uri[index]
-        driver.get(url)
-        dateForOneId=driver.find_element_by_xpath("//li[contains(., 'LDR')]").get_attribute('innerHTML')
-        print()
-        i=0
-        for line in driver.find_element_by_xpath("//li[contains(., 'LDR')]").find_elements_by_xpath('//b'):
-            print(line.get_attribute('innerHTML'))
+        while True:
+            mylist = []
+            list = getDataBook(urlSursa + id_uri[index])
+            a = list.split(' ')
+            i = 1
+            mylist.append(a[0])
+            while i < (len(a)):
+
+                value = ""
+                while i < len(a):
+                    if not a[i] in list_fields:
+                        value += a[i]
+                        i += 1
+                    else:
+                        break
+                mylist.append(value)
+                if (i < len(a)):
+                    mylist.append(a[i])
+                i += 1
+            if not to_json(mylist,index):
+                print("error")
+            index += 1
+
     except KeyboardInterrupt:
         pass
     finally:
-        jsonFileTinread =open("../data/tinread.json", "a+")
-        jsonFileTinread.write(data)
-        jsonFileTinread.close()
-        driver.quit()
+        pass
+        # jsonFileTinread =open("../data/tinread.json", "a+")
+        # jsonFileTinread.write(list)
+        # jsonFileTinread.close()
+
+
 if __name__ == '__main__':
     main()
