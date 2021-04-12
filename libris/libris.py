@@ -1,8 +1,8 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-from base64 import b64encode
 import time
 import json
+import os
 
 
 def to_json(lst: list):
@@ -14,7 +14,6 @@ def to_json(lst: list):
     for i in range(3, len(lst)):  # in cazul in care apar caractere cum ar fi tab, new line ele sunt elimintae
         for j in ["\t", "\n", "\u00a0"]:
             lst[i] = lst[i].replace(j, '')
-
 
     new_object = {str(lst[0]): {"Titlu": lst[0], "Sursa": lst[1], "Poza": lst[2], "Pret: ": lst[3], "Pret redus: ": lst[4],
                                 "Stoc: ": lst[5], "Cod: ": "-", "An aparitie: ": "-", "Autor: ": "-",  "Categorie: ": "-",
@@ -51,9 +50,7 @@ def to_json(lst: list):
         else:
             new_object[str(lst[0])]["Alte detalii: "] = (lst.pop(6))
 
-    print(lst)
-
-    with open("carti.json", 'r+', encoding="utf-8") as file:
+    with open("../data/libris.json", 'r+', encoding="utf-8") as file:
         data = file.read().strip()
         json_file = json.loads(data or '{}')
         json_file.update(new_object)
@@ -132,14 +129,12 @@ def main():
                     driver.find_element_by_xpath('//h1[@id="product_title rating"]').get_attribute('textContent'))
                 carte.append(k)  # adaugam in lista linkul de la fiecare carte
 
-                img = driver.find_element_by_xpath('//img[@class="imgProdus"]')  # se preia coperta fiecarei carti
-                driver.execute_script("arguments[0].scrollIntoView();", img)
-                img.screenshot("coperta.png")
+                if not os.path.isfile("../data/libris coperta/" + str(carte[0]) + ".png"):
 
-                with open("coperta.png", "rb") as f:
-                    b_img = f.read()
-                b64_img = b64encode(b_img).decode('utf-8')
-                carte.append(b64_img)
+                    img = driver.find_element_by_xpath('//img[@class="imgProdus"]')  # se preia coperta fiecarei carti
+                    driver.execute_script("arguments[0].scrollIntoView();", img)
+                    img.screenshot("../data/libris coperta/" + str(carte[0]) + ".png")
+                carte.append("./data/libris coperta/" + str(carte[0]) + ".png")
 
                 pret = driver.find_element_by_xpath('//div[@id="text_container"]/p[1]').get_attribute('textContent')
                 if pret.count('Lei') == 1:
