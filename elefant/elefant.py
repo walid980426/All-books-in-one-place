@@ -5,16 +5,13 @@ import json
 driver = webdriver.Firefox()
 urlSource = "https://www.elefant.ro/list/carti/carte?pag="
 i = 1
-data = {}
-data['price'] = []
-data['details'] = []
-data['img'] = []
+data = {'price': [], 'details': [], 'img': [], 'title': []}
 try:
     while True:
         driver.get(urlSource+str(i))
         driver.implicitly_wait(3)
         sleep(2)
-        for line in driver.find_elements_by_xpath('//div[@class="product-image-container"]'):
+        for line in driver.find_elements_by_xpath('//div[@class="product-list-item col-lg-3 col-md-4 col-sm-4 col-xs-6 grid-view lazy"]'):
             browser = webdriver.Firefox()
             elem = line.find_element_by_tag_name("a")
             link = elem.get_attribute("href")
@@ -30,6 +27,8 @@ try:
             detalii = browser.find_element_by_xpath('//*[@id]/div/dl')
             detalii = detalii.text
             data['details'].append(detalii)
+            title = browser.find_element_by_xpath('//h1')
+            data['title'].append(title.text)
             print(data)
             browser.quit()
         i += 1
