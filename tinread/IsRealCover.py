@@ -1,6 +1,6 @@
 from collections import Counter
 
-def isRealCover(img):
+def is_real_cover(img):
     notCover=[1283 ,'2e0101ff',2179, '183817ff',1502 ,'3f1a11ff',1283, '112b49ff',934 , '640404ff']
     size =w,h=img.size
     data = img.load()

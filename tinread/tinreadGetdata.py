@@ -10,17 +10,20 @@ def main():
                    '362', '366', '374', '382', '406', '408', '414', '428', '430', '448', '464', '483', '490', '500',
                    '504', '507', '511', '518', '546', '571', '587', '603', '608', '624', '650', '651', '658', '687',
                    '696', '700', '800', '802', '804', '807', '811', '852', '855', '857', '891', '911', '913']
+
+    index=int(open("index.txt", "r").read())
     f = open("urlValid.txt", "r")
     id_uri = f.readlines()
     urlSursa = "http://opac.biblioteca.ase.ro/opac/bibliographic_view/"
-    index = 1
 
     try:
         while True:
             mylist = []
-            list = getDataBook(urlSursa + id_uri[index])
+            list = getDataBook(urlSursa + id_uri[index],index)
             a = list.split(' ')
             i = 1
+
+
             mylist.append(a[0])
             while i < (len(a)):
 
@@ -38,6 +41,7 @@ def main():
             if not to_json(mylist,index):
                 print("error")
             index += 1
+            open("index.txt", "w").write(str(index))
 
     except KeyboardInterrupt:
         pass
