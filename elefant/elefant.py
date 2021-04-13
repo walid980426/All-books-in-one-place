@@ -28,7 +28,7 @@ try:
             detalii = detalii.text
             data['details'].append(detalii)
             title = browser.find_element_by_xpath('//h1')
-            data['title'].append(title.text)
+            data['title'].append(title.text.split(" - ", 1)[0])
             print(data)
             browser.quit()
         i += 1
