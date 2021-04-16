@@ -41,9 +41,12 @@ def to_json(data:list,id:int) ->bool:
                         dict[id][index]["fld"]["subflds"][subfildIndex]["subfld"]["val"] = i[1:]
                         subfildIndex +=1
             index +=1
-        dict =json.dumps(dict)
-        with open("../data/Aleph.json", "+a") as outfile:
-            outfile.write(dict)
+        with open("../data/Aleph.json") as file:
+            data = list(json.load(file))
+            data.append(dict)
+
+        with open("../data/Aleph.json", 'w') as file:
+            json.dump(data, file)
 
 
         return True

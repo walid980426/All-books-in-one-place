@@ -1,9 +1,11 @@
 from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
 from time import sleep
 from ToJson import to_json
-driver = webdriver.Firefox()
-
-i=1
+options = Options()
+options.headless = True
+driver = webdriver.Firefox(options=options)
+i=int(open('i.txt').readline())
 id=1
 while True:
     driver.get("http://aleph.bcucluj.ro:8991/F/U37IYB6QYV145YC3L2RLHFD699HAK9UK768M46UDUA8H5QDBDC-36579?func=find-c-0")
@@ -35,14 +37,7 @@ while True:
         list=list[:k+2]
         to_json(list,id)
         id=id+1
-
-        print(list)
-
-
-
-
-
-
+        open("i.txt","w").write(str(i))
 
     finally:
         i=i+1
