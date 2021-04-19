@@ -57,7 +57,7 @@ def databaseLibris():
         else:
             for i in value:
                 # actualizam fiecare field in tabelul fields
-                mycursor.execute(f"""UPDATE fields SET valore="{i['fld']['val']}" WHERE carte_id={c[0]} AND nume="{i['fld']['fld_name']}" """)
+                mycursor.execute(f"""UPDATE fields SET valore="{i['fld']['val']}" WHERE carte_id={exista[0]} AND nume="{i['fld']['fld_name']}" """)
                 mydb.commit()
 
 
