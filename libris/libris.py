@@ -16,8 +16,8 @@ def to_json(data: list):
     for i in range(3, len(data)):  # in cazul in care apar caractere cum ar fi tab, new line ele sunt elimintae
         for j in ["\t", "\n", "\u00a0", '"']:
             data[i] = data[i].replace(j, '')
-
-    dict = {data[0]: []}
+    carte = data[0][data[0].find(':') + 2:]
+    dict = {carte: []}
     fild = \
         {
             "fld":
@@ -28,9 +28,9 @@ def to_json(data: list):
         }
 
     for index, i in enumerate(data):
-        dict[data[0]].append(copy.deepcopy(fild))
-        dict[data[0]][index]["fld"]["fld_name"] = i[:i.find(':')]
-        dict[data[0]][index]["fld"]["val"] = i[i.find(':') + 2:]
+        dict[carte].append(copy.deepcopy(fild))
+        dict[carte][index]["fld"]["fld_name"] = i[:i.find(':')]
+        dict[carte][index]["fld"]["val"] = i[i.find(':') + 2:]
 
     with open("../data/libris.json", 'r+', encoding="utf-8") as file:
         data = file.read().strip()
@@ -126,8 +126,8 @@ def main():
                     carte.append('Pret: ' + pret)
                     carte.append('Pret redus: -')
                 else:
-                    carte.append("Pret: " + pret[:pret.find("Lei", 2) + 3])
-                    carte.append("Pret redus: " + pret[pret.find("Lei", 2) + 3:])
+                    carte.append("Pret: " + pret[pret.find("Lei", 2) + 3:])
+                    carte.append("Pret redus: " + pret[:pret.find("Lei", 2) + 3])
 
                 carte.append('Stoc: ' + driver.find_element_by_xpath('//div[@id="text_container"]/p[3]').get_attribute(
                     'textContent'))

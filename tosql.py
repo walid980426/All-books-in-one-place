@@ -40,24 +40,24 @@ def databaseLibris():
         json_file = json.load(file)
 
     for key, value in json_file.items():
-        mycursor.execute(f"SELECT id FROM carte WHERE bibloteca_id=4 AND titlu='{key}'")
+        mycursor.execute(f"SELECT id FROM resource WHERE bibloteca_id=4 AND identifier='{key}'")
         exista = mycursor.fetchone()
         # varificam daca cartea exista in baza de date
         if exista is None:
             # adaugam titlul carii si biblioteca in tabelul carte
-            mycursor.execute(f"INSERT INTO carte(bibloteca_id, titlu) VALUES (4, '{key}')")
+            mycursor.execute(f"INSERT INTO resource(bibloteca_id, identifier) VALUES (4, '{key}')")
             mydb.commit()
 
             id = mycursor.lastrowid
             for i in value:
                 # adaugam fiecare field in tabelul fields
-                mycursor.execute(f"""INSERT INTO fields (carte_id, valore, nume) VALUES ({id} ,
+                mycursor.execute(f"""INSERT INTO field (carte_id, value, field) VALUES ({id} ,
                  "{i['fld']['val']}", "{i['fld']['fld_name']}")""")
                 mydb.commit()
         else:
             for i in value:
                 # actualizam fiecare field in tabelul fields
-                mycursor.execute(f"""UPDATE fields SET valore="{i['fld']['val']}" WHERE carte_id={exista[0]} AND nume="{i['fld']['fld_name']}" """)
+                mycursor.execute(f"""UPDATE field SET value="{i['fld']['val']}" WHERE carte_id={exista[0]} AND field="{i['fld']['fld_name']}" """)
                 mydb.commit()
 
 
