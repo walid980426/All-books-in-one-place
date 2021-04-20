@@ -1,18 +1,19 @@
 from selenium import webdriver
 from time import sleep
 from selenium.webdriver.firefox.options import Options
-import json
+from ToJson import to_json
 
 options = Options()
 options.headless = True
 driver = webdriver.Firefox(options=options)
 urlSource = "https://www.elefant.ro/list/carti/carte?pag="
 i = 1
-data = {'price': [], 'details': [], 'img': [], 'title': []}
+id = 1
 
 
-def navigare(driver, data, i):
+def navigare(driver, i):
     while True:
+        list = []
         driver.get(urlSource + str(i))
         driver.implicitly_wait(3)
         sleep(6)
@@ -24,7 +25,10 @@ def navigare(driver, data, i):
             browser.get(link)
             browser.implicitly_wait(3)
             sleep(2)
-            extragere(browser, data)
+            '''mai_mult = browser.find_element_by_xpath('//div[2]/a[2]/span')
+            mai_mult.click()'''
+            sleep(2)
+            extragere(browser, list)
             browser.quit()
         i += 1
         if len(driver.find_elements_by_xpath("//div[2]/div[5]/div")) > 0:
@@ -34,23 +38,34 @@ def navigare(driver, data, i):
     driver.close()
 
 
-def extragere(browser, data):
+def extragere(browser, list):
+    global id
     pret_actual = browser.find_element_by_css_selector(".pdp-table-th > .current-price")
     pret_actual = pret_actual.text
-    data['price'].append(pret_actual)
+    list.append('Pret')
+    list.append(pret_actual)
     image_link = browser.find_element_by_css_selector('.product-thumb-set > .product-image')
     image_link = image_link.get_attribute('src')
-    data['img'].append(image_link)
+    list.append('Imagine')
+    list.append(image_link)
     detalii = browser.find_element_by_xpath('//*[@id]/div/dl')
+    # detalii = browser.find_element_by_xpath('//dl[@class="ish-productAttributes"]')
     detalii = detalii.text
-    data['details'].append(detalii)
+    detalii = detalii.split("\n")
+    for j in range(0, len(detalii)):
+        list.append(detalii[j])
     title = browser.find_element_by_xpath('//h1')
-    data['title'].append(title.text.split(" - ", 1)[0])
-    print(data)
+    title = title.text.split(" - ", 1)[0]
+    list.append("Titlu")
+    list.append(title)
+    to_json(list, id)
+    id = id+1
+
 
 
 if __name__ == "__main__":
     try:
-        navigare(driver, data, i)
+        navigare(driver, i)
     except KeyboardInterrupt:
         pass
+#div class="cc-window cc-banner cc-type-info cc-theme-block cc-bottom cc-color-override-1827372716
