@@ -7,18 +7,19 @@ options = Options()
 options.headless = True
 driver = webdriver.Firefox(options=options)
 urlSource = "https://www.elefant.ro/list/carti/carte?pag="
-i = 1
-id = 1
-
+i, id = (open("index.txt", 'r').readline().split(" "))
+i = int(i)
+id = int(id)
 
 def navigare(driver, i):
     while True:
-        list = []
         driver.get(urlSource + str(i))
         driver.implicitly_wait(3)
         sleep(6)
-        for line in driver.find_elements_by_xpath(
-            '//div[@class="product-list-item col-lg-3 col-md-4 col-sm-4 col-xs-6 grid-view lazy"]'):
+        lista = driver.find_elements_by_xpath(
+            '//div[@class="product-list-item col-lg-3 col-md-4 col-sm-4 col-xs-6 grid-view lazy"]')
+        for j in range(id, 60):
+            line = lista[j]
             browser = webdriver.Firefox(options=options)
             elem = line.find_element_by_tag_name("a")
             link = elem.get_attribute("href")
@@ -28,7 +29,7 @@ def navigare(driver, i):
             '''mai_mult = browser.find_element_by_xpath('//div[2]/a[2]/span')
             mai_mult.click()'''
             sleep(2)
-            extragere(browser, list)
+            extragere(browser, i)
             browser.quit()
         i += 1
         if len(driver.find_elements_by_xpath("//div[2]/div[5]/div")) > 0:
@@ -38,8 +39,9 @@ def navigare(driver, i):
     driver.close()
 
 
-def extragere(browser, list):
+def extragere(browser, i):
     global id
+    list =[]
     pret_actual = browser.find_element_by_css_selector(".pdp-table-th > .current-price")
     pret_actual = pret_actual.text
     list.append('Pret')
@@ -58,8 +60,12 @@ def extragere(browser, list):
     title = title.text.split(" - ", 1)[0]
     list.append("Titlu")
     list.append(title)
-    to_json(list, id)
-    id = id+1
+    k = id + 1
+    if not to_json(list, k):
+        print("error")
+    print(list)
+    id = id + 1
+    open("index.txt", 'w').write(str(i) + ' ' + str(id))
 
 
 

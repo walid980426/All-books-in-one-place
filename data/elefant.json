@@ -1,0 +1,232 @@
+[
+  {
+    "1": [
+      {
+        "fld": {
+          "fld_name": "Pret",
+          "val": "40,45 lei"
+        }
+      },
+      {
+        "fld": {
+          "fld_name": "Imagine",
+          "val": "http://mcdn.elefant.ro/mnresize/150/150/is/product-images/cartero/ee6a5b80/a453/44d3/a55d/11ff5430f5aa/ee6a5b80-a453-44d3-a55d-11ff5430f5aa_1.jpg"
+        }
+      },
+      {
+        "fld": {
+          "fld_name": "Autor",
+          "val": "Barack Obama"
+        }
+      },
+      {
+        "fld": {
+          "fld_name": "Editura",
+          "val": "Litera"
+        }
+      },
+      {
+        "fld": {
+          "fld_name": "Anul aparitiei",
+          "val": "2.020"
+        }
+      },
+      {
+        "fld": {
+          "fld_name": "Luna aparitiei",
+          "val": "9"
+        }
+      },
+      {
+        "fld": {
+          "fld_name": "Titlu",
+          "val": "Pamantul fagaduintei"
+        }
+      }
+    ]
+  },
+  {
+    "2": [
+      {
+        "fld": {
+          "fld_name": "Pret",
+          "val": "34,95 lei"
+        }
+      },
+      {
+        "fld": {
+          "fld_name": "Imagine",
+          "val": "http://mcdn.elefant.ro/mnresize/150/150/is/product-images/cartero/82580dae/c31b/4432/b02b/5d31fcc4ac06/82580dae-c31b-4432-b02b-5d31fcc4ac06_1.jpeg"
+        }
+      },
+      {
+        "fld": {
+          "fld_name": "Autor",
+          "val": "Bernardine Evaristo"
+        }
+      },
+      {
+        "fld": {
+          "fld_name": "Editura",
+          "val": "Corint"
+        }
+      },
+      {
+        "fld": {
+          "fld_name": "Anul aparitiei",
+          "val": "2.021"
+        }
+      },
+      {
+        "fld": {
+          "fld_name": "Luna aparitiei",
+          "val": "3"
+        }
+      },
+      {
+        "fld": {
+          "fld_name": "Titlu",
+          "val": "Fata, femeie, alta"
+        }
+      }
+    ]
+  },
+  {
+    "3": [
+      {
+        "fld": {
+          "fld_name": "Pret",
+          "val": "19,50 lei"
+        }
+      },
+      {
+        "fld": {
+          "fld_name": "Imagine",
+          "val": "http://mcdn.elefant.ro/mnresize/150/150/is/product-images/carte-ro/dd62be14/4ab8/4d6d/bcc5/20e884e262ab/dd62be14-4ab8-4d6d-bcc5-20e884e262ab_1.jpg?1"
+        }
+      },
+      {
+        "fld": {
+          "fld_name": "Autor",
+          "val": "Mark Manson"
+        }
+      },
+      {
+        "fld": {
+          "fld_name": "Editura",
+          "val": "Lifestyle Publishing"
+        }
+      },
+      {
+        "fld": {
+          "fld_name": "Colectie",
+          "val": "Lifestyle"
+        }
+      },
+      {
+        "fld": {
+          "fld_name": "Anul aparitiei",
+          "val": "2017"
+        }
+      },
+      {
+        "fld": {
+          "fld_name": "Titlu",
+          "val": "Arta subtila a nepasarii"
+        }
+      }
+    ]
+  },
+  {
+    "4": [
+      {
+        "fld": {
+          "fld_name": "Pret",
+          "val": "22,98 lei"
+        }
+      },
+      {
+        "fld": {
+          "fld_name": "Imagine",
+          "val": "http://mcdn.elefant.ro/mnresize/150/150/is/product-images/cartero/990c3bb7/8a9f/41b4/bb38/65e730dd1a68/990c3bb7-8a9f-41b4-bb38-65e730dd1a68_1.jpg"
+        }
+      },
+      {
+        "fld": {
+          "fld_name": "Autor",
+          "val": "Alex Michaelides"
+        }
+      },
+      {
+        "fld": {
+          "fld_name": "Editura",
+          "val": "Litera"
+        }
+      },
+      {
+        "fld": {
+          "fld_name": "Colectie",
+          "val": "Buzz Books"
+        }
+      },
+      {
+        "fld": {
+          "fld_name": "Anul aparitiei",
+          "val": "2019"
+        }
+      },
+      {
+        "fld": {
+          "fld_name": "Titlu",
+          "val": "Pacienta tacuta"
+        }
+      }
+    ]
+  },
+  {
+    "5": [
+      {
+        "fld": {
+          "fld_name": "Pret",
+          "val": "19,95 lei"
+        }
+      },
+      {
+        "fld": {
+          "fld_name": "Imagine",
+          "val": "http://mcdn.elefant.ro/mnresize/150/150/is/product-images/cartero/db1b21a9/086d/43f9/9fda/b2b2c606fd10/db1b21a9-086d-43f9-9fda-b2b2c606fd10_1.jpg"
+        }
+      },
+      {
+        "fld": {
+          "fld_name": "Autor",
+          "val": "Kevin Dutton"
+        }
+      },
+      {
+        "fld": {
+          "fld_name": "Editura",
+          "val": "Globo"
+        }
+      },
+      {
+        "fld": {
+          "fld_name": "Anul aparitiei",
+          "val": "2.019"
+        }
+      },
+      {
+        "fld": {
+          "fld_name": "Luna aparitiei",
+          "val": "11"
+        }
+      },
+      {
+        "fld": {
+          "fld_name": "Titlu",
+          "val": "Arta manipularii"
+        }
+      }
+    ]
+  }
+]
