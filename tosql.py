@@ -12,26 +12,6 @@ mydb = mysql.connector.connect(host=server, user=username, password=password, po
 mycursor = mydb.cursor()
 
 
-def databasealeph():
-    file = open("data/Aleph.json", "r")
-    jsonfile = json.load(file)
-    nume = jsonfile[1][str(2)][0]['fld']['fld_name']
-    index_1 = jsonfile[1][str(2)][0]['fld']['ind_1']
-    index_2 = jsonfile[1][str(2)][0]['fld']['ind_2']
-    valore = jsonfile[1][str(2)][0]['fld']['val']
-    # for i in jsonfile[1][str(2)][0]['fld']['subflds']:
-    #   print(i)
-    sql = "INSERT INTO carte (bibloteca_id) VALUES (1)"
-    mycursor.execute(sql)
-    mydb.commit()
-    sql = f"INSERT INTO fields (carte_id,valore,nume) VALUES (1,'{valore}','{nume}')"
-    mycursor.execute(sql)
-
-    mydb.commit()
-    print(mycursor.rowcount, "record inserted.")
-
-    pass
-
 
 def databaseLibris():
     with open("./data/libris.json", 'r+', encoding="utf-8") as file:
@@ -60,7 +40,7 @@ def databaseLibris():
                 mydb.commit()
 
 
-def databasetinread():
+def databasetinread(id:str):
     file = open("data/tinread.json", "r")
     jsonfile = json.load(file)
     for i in range(len(jsonfile)):
@@ -75,11 +55,11 @@ def databasetinread():
             nume = jsonfile[i]['1'][j]['fld']['fld_name']
             index_1 = jsonfile[i]['1'][j]['fld']['ind_1']
             if (index_1 == ""):
-                index_1 = "-1"
+                index_1 = -1
 
             index_2 = jsonfile[i]['1'][j]['fld']['ind_2']
             if (index_2 == ""):
-                index_2 = "-1"
+                index_2 = -1
             valore = jsonfile[i]['1'][j]['fld']['val']
             if (valore == ""):
                 valore = "#"
@@ -99,5 +79,5 @@ def databasetinread():
 
 
     # jsonfile[i][str(i+1)][index]['fld']['fld_name']
-
+databasetinread()
 

@@ -120,18 +120,17 @@ dateTinread = {
 }
 
 
-def getDataBook(url: str,id:int) -> str:
+def getDataBook(url: str,id:int,id_photo:str,id_sit:str) -> str:
     options = Options()
     options.headless = True
     driver = webdriver.Firefox(options=options)
     data = ""
-    f = open("urlValid.txt", "r")
     try:
         driver.get(url)
-        driver.find_element_by_xpath("//img[@id='Any_16']").screenshot('a.png')
+        driver.find_element_by_xpath(f"//img[@id='Any_{id_photo}']").screenshot('a.png')
         img =Image.open("a.png")
         if is_real_cover(img):
-            img.save("img/{}.png".format(id))
+            img.save(f"img/{id_sit}_{id}.png")
         data = driver.find_element_by_xpath("//li[contains(., 'LDR')]").get_attribute('innerHTML')
         regularExpression = r'(<script(\s|\S)*?<\/script>)|(<style(\s|\S)*?<\/style>)|(<!--(\s|\S)*?-->)|(<\/?(\s|\S)*?>)'
         data = re.sub(regularExpression, ' ', data)

@@ -1,7 +1,9 @@
 from getDataBook import getDataBook
 from toJson import to_json
+from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
 
-def main():
+def tinread_get_data(urlSursa:str,id:str,id_photo:str):
     list_fields = ['LDR', '000', '001', '003', '005', '006', '007', '008', '009', '020', '031', '035', '036', '041',
                    '044', '050', '075', '076', '080', '082', '100', '110', '113', '116', '136', '138', '140', '152',
                    '154', '166', '168', '169', '175', '184', '189', '197', '204', '206', '216', '218', '223', '224',
@@ -11,37 +13,39 @@ def main():
                    '504', '507', '511', '518', '546', '571', '587', '603', '608', '624', '650', '651', '658', '687',
                    '696', '700', '800', '802', '804', '807', '811', '852', '855', '857', '891', '911', '913']
 
-    index=int(open("index.txt", "r").read())
-    f = open("urlValid.txt", "r")
-    id_uri = f.readlines()
-    urlSursa = "http://opac.biblioteca.ase.ro/opac/bibliographic_view/"
-
+    f = open(f"../data/tinread/{id}.txt", "r")
+    index = int(f.readline())
+    options = Options()
+    options.headless = True
+    driver = webdriver.Firefox(options=options)
     try:
         while True:
-            mylist = []
-            list = getDataBook(urlSursa + id_uri[index],index)
-            a = list.split(' ')
-            i = 1
+            driver.get(urlSursa+str(index))
+            if driver.current_url[-10:] !="status=404":
+                mylist=[]
+                list = getDataBook(urlSursa + str(index),index,id_photo,id)
+                a = list.split(' ')
+                i = 1
 
 
-            mylist.append(a[0])
-            while i < (len(a)):
+                mylist.append(a[0])
+                while i < (len(a)):
 
-                value = ""
-                while i < len(a):
-                    if not a[i] in list_fields:
-                        value += a[i]
-                        i += 1
-                    else:
-                        break
-                mylist.append(value)
-                if (i < len(a)):
-                    mylist.append(a[i])
-                i += 1
-            if not to_json(mylist,index):
-                print("error")
+                    value = ""
+                    while i < len(a):
+                        if not a[i] in list_fields:
+                            value += a[i]
+                            i += 1
+                        else:
+                            break
+                    mylist.append(value)
+                    if (i < len(a)):
+                        mylist.append(a[i])
+                    i += 1
+                if not to_json(mylist,id):
+                    print("error")
             index += 1
-            open("index.txt", "w").write(str(index))
+            open(f"../data/tinread/{id}.txt", "w").write(str(index))
 
     except KeyboardInterrupt:
         pass
@@ -51,6 +55,3 @@ def main():
         # jsonFileTinread.write(list)
         # jsonFileTinread.close()
 
-
-if __name__ == '__main__':
-    main()

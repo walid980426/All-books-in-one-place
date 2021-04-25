@@ -1,6 +1,6 @@
 import json
 import copy
-def to_json(data:list,id:int) ->bool:
+def to_json(data:list,idfile:int) ->bool:
     id="1"
     dict = {id: []}
     fild ={
@@ -46,7 +46,7 @@ def to_json(data:list,id:int) ->bool:
           data = list(json.load(file))
           data.append(dict)
 
-        with open("../data/tinread.json", 'w') as file:
+        with open(f"../data/tinread/{idfile}.json", 'w') as file:
           json.dump(data, file)
 
 
