@@ -2,6 +2,10 @@ from selenium import webdriver
 from time import sleep
 from selenium.webdriver.firefox.options import Options
 from ToJson import to_json
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
 
 options = Options()
 options.headless = True
@@ -11,16 +15,26 @@ i, id = (open("index.txt", 'r').readline().split(" "))
 i = int(i)
 id = int(id)
 
+
 def navigare(driver, i):
+    global id
     while True:
         driver.get(urlSource + str(i))
-        driver.implicitly_wait(3)
-        sleep(6)
+        driver.maximize_window()
+        height = driver.execute_script("return document.body.scrollHeight")
+        for o in range(0, height, 800):
+            driver.execute_script(f"window.scrollTo(0, {o});")
+            sleep(0.5)
+        WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.XPATH, '//*[@id="seg-cat-rec-4"]/h2'))
+    )
+        sleep(3)
         lista = driver.find_elements_by_xpath(
             '//div[@class="product-list-item col-lg-3 col-md-4 col-sm-4 col-xs-6 grid-view lazy"]')
-        for j in range(id, 60):
+        for j in range(id, len(lista)):
             line = lista[j]
             browser = webdriver.Firefox(options=options)
+
             elem = line.find_element_by_tag_name("a")
             link = elem.get_attribute("href")
             browser.get(link)
@@ -29,17 +43,14 @@ def navigare(driver, i):
             '''mai_mult = browser.find_element_by_xpath('//div[2]/a[2]/span')
             mai_mult.click()'''
             sleep(2)
-            extragere(browser, i)
+            to_json(extragere(browser, i), link)
             browser.quit()
         i += 1
-        if len(driver.find_elements_by_xpath("//div[2]/div[5]/div")) > 0:
-            continue
-        else:
-            break
+        id = 0
     driver.close()
 
 
-def extragere(browser, i):
+def extragere(browser, i) -> list:
     global id
     list =[]
     pret_actual = browser.find_element_by_css_selector(".pdp-table-th > .current-price")
@@ -60,13 +71,10 @@ def extragere(browser, i):
     title = title.text.split(" - ", 1)[0]
     list.append("Titlu")
     list.append(title)
-    k = id + 1
-    if not to_json(list, k):
-        print("error")
     print(list)
     id = id + 1
     open("index.txt", 'w').write(str(i) + ' ' + str(id))
-
+    return list
 
 
 if __name__ == "__main__":
@@ -74,4 +82,3 @@ if __name__ == "__main__":
         navigare(driver, i)
     except KeyboardInterrupt:
         pass
-#div class="cc-window cc-banner cc-type-info cc-theme-block cc-bottom cc-color-override-1827372716

@@ -1,5 +1,7 @@
 import json
+from random import random
 import mysql.connector
+from time import sleep
 
 server = 'dbstud.cunbm.utcluj.ro'
 database = 'all-books-in-one-place'
@@ -78,6 +80,20 @@ def databasetinread(id:str):
                     mydb.commit()
 
 
+
+def databaseelefant(id: str, dict: dict):
+    sleep(random() * 5)
+    mycursor.execute(f"INSERT INTO  resource (id_library,identifier) VALUES (3,{id})")
+    mydb.commit()
+    mycursor.execute(f"SELECT id FROM resource WHERE id_library = 3 AND identifier='{id}'")
+    id_resource = mycursor.fetchall()
+    id_resource = id_resource[0][0]
+    for j in range(len(dict['1'])):
+        nume = dict['1'][j]['fld']['fld_name']
+        valore = dict['1'][j]['fld']['val']
+        comment = f"INSERT INTO field (field.id_resource,field.value ,field.field) VALUES ({id_resource},'{valore}','{nume}')"
+        mycursor.execute(comment)
+        mydb.commit()
+
     # jsonfile[i][str(i+1)][index]['fld']['fld_name']
-databasetinread()
 
