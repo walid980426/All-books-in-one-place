@@ -1,6 +1,7 @@
 import json
 import copy
-def to_json(data:list,id:int) ->bool:
+
+def to_json(data:list,id:str,idcatalog:int) ->bool:
     dict = {id: []}
     fild ={
         "fld": {
@@ -41,12 +42,10 @@ def to_json(data:list,id:int) ->bool:
                         dict[id][index]["fld"]["subflds"][subfildIndex]["subfld"]["val"] = i[1:]
                         subfildIndex +=1
             index +=1
-        with open("../data/Aleph.json") as file:
-            data = list(json.load(file))
-            data.append(dict)
+        #databasetinread(idcatalog,dict)
+        print (dict)
 
-        with open("../data/Aleph.json", 'w') as file:
-            json.dump(data, file)
+
 
 
         return True
