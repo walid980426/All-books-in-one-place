@@ -1,3 +1,6 @@
+from random import random
+from time import sleep
+
 from getDataBook import getDataBook
 from toJson import to_json
 from selenium import webdriver
@@ -22,6 +25,7 @@ def tinread_get_data(urlSursa:str,id:str,id_photo:str):
         while True:
             driver.get(urlSursa+str(index))
             if driver.current_url[-10:] !="status=404":
+                sleep(random()*5)
                 mylist=[]
                 list = getDataBook(urlSursa + str(index),index,id_photo,id)
                 a = list.split(' ')
@@ -50,6 +54,7 @@ def tinread_get_data(urlSursa:str,id:str,id_photo:str):
     except KeyboardInterrupt:
         pass
     finally:
+        driver.close()
         pass
         # jsonFileTinread =open("../data/tinread.json", "a+")
         # jsonFileTinread.write(list)

@@ -1,4 +1,6 @@
 import re
+import time
+from random import random
 
 from PIL import Image
 from selenium import webdriver
@@ -127,6 +129,8 @@ def getDataBook(url: str,id:int,id_photo:str,id_sit:str) -> str:
     data = ""
     try:
         driver.get(url)
+        time.sleep(random()*10)
+
         driver.find_element_by_xpath(f"//img[@id='Any_{id_photo}']").screenshot('a.png')
         img =Image.open("a.png")
         if is_real_cover(img):

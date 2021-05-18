@@ -1,0 +1,7 @@
+1616568314970	geckodriver	INFO	Listening on 127.0.0.1:50947
+1616568318023	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Walid\\AppData\\Local\\Temp\\rust_mozprofilePi4Ph8"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616568322786	Marionette	INFO	Listening on port 50955
+1616568323291	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-v.tawk.to/709/app.js, line 250: TypeError: this.getBrowserData is not a function
+JavaScript error: https://static-v.tawk.to/709/app.js, line 675: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data

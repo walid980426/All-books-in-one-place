@@ -1,6 +1,7 @@
-import json
 import copy
-def to_json(data:list,idfile:int) ->bool:
+
+from tosql import databasetinread
+def to_json(data:list,idfile:str) ->bool:
     id="1"
     dict = {id: []}
     fild ={
@@ -20,37 +21,32 @@ def to_json(data:list,idfile:int) ->bool:
 
             }
     index =0
-    try:
-        for i in range(0,len(data),2):
-
-            dict[id].append(copy.deepcopy(fild))
-            dict[id][index]["fld"]["fld_name"]=data[i]
-            if(data[i+1].find("$")==-1):
-                dict[id][i//2]["fld"]["val"]=data[i+1]
-            else:
-                value =data[i+1]
-                if value[0]!="$":
-                    dict[id][index]["fld"]["ind_1"]=value[0]
-                    if value[1]!="$":
-                        dict[id][index]["fld"]["ind_2"]=value[1]
-                value = value.split("$")
-                subfildIndex=0
-                for i in value:
-                    if len(i)>0:
-                        dict[id][index]["fld"]["subflds"].append(copy.deepcopy(subfild))
-                        dict[id][index]["fld"]["subflds"][subfildIndex]["subfld"]["name"] = i[0]
-                        dict[id][index]["fld"]["subflds"][subfildIndex]["subfld"]["val"] = i[1:]
-                        subfildIndex +=1
-            index +=1
-        with open("../data/tinread.json") as file:
-          data = list(json.load(file))
-          data.append(dict)
-
-        with open(f"../data/tinread/{idfile}.json", 'w') as file:
-          json.dump(data, file)
+    for i in range(0,len(data)-2,2):
+        dict[id].append(copy.deepcopy(fild))
+        dict[id][index]["fld"]["fld_name"]=data[i]
+        has_sub=data[i+1].find("$")
+        value =data[i+1]
+        if(has_sub==-1):
+            dict[id][i//2]["fld"]["val"]=data[i+1]
+        else:
+            if(value[0]=="#" or (value[0] >="0"and value[0]<="9")):
+                dict[id][index]["fld"]["ind_1"]=value[0]
+                value =value[1:]
+                if(value[0]==" " and (value[1]=="#" or (value[1] >="0"and value[1]<="9"))):
+                    dict[id][index]["fld"]["ind_2"]=value[1]
+                    value=value[2:]
+            value = value.split("$")
+            subfildIndex=0
+            dict[id][i//2]["fld"]["val"]=value[0]
+            for i in range(1,len(value)):
+                if len(value[i])>0:
+                    dict[id][index]["fld"]["subflds"].append(copy.deepcopy(subfild))
+                    dict[id][index]["fld"]["subflds"][subfildIndex]["subfld"]["name"] = value[i][0]
+                    dict[id][index]["fld"]["subflds"][subfildIndex]["subfld"]["val"] = value[i][1:]
+                    subfildIndex +=1
+        index +=1
+    databasetinread(int(idfile),dict)
+    return True
 
 
-        return True
-    except:
-        return False
 
